@@ -1,0 +1,49 @@
+.van-tabs__line,.van-sidebar-item--select::before{
+    background-color: #1989fa;
+}
+.van-step__icon--active, .van-step__icon--finish, .van-step__title--active, .van-step__title--finish{
+    color: #1989fa;
+}
+.van-sidebar{
+    width: auto;
+}
+.van-cell__value{
+    flex:2
+}
+.van-sidebar{
+    padding: 0 10px;
+}
+.liftcycle .van-sidebar-item{
+    font-size: 16px;
+}
+.liftcycle .van-cell__value{
+    font-size: 16px;
+    color: #07c160;
+}
+.liftcycle .van-hairline--top-bottom::after, .van-hairline-unset--top-bottom::after{
+    display: none;
+}
+.liftcycle .van-cell--clickable{
+    padding: 0;
+    color: #969799;
+}
+.liftcycle .van-cell__title,.liftcycle .van-cell__value{
+    line-height: 3;
+}
+.step .van-cell{
+    padding: 0;
+    color: #969799;
+}
+.samplingitem .van-dropdown-menu__title{
+    color: #fff;
+    font-size: 18px;
+}
+.samplingitem .van-dropdown-menu__item{
+    background-color: #1989fa;
+}
+.samplingitem .van-cell__title,.samplingitem .van-cell__value{
+    flex:2
+}
+.plan .van-cell__title,.plan .van-cell__value{
+    flex:6
+}
